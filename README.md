@@ -1,4 +1,4 @@
-# Yelp-Reviews-Analysis-and-Recommendation-Engine-for-Restaurants
+# Yelp dataset: American Restaurants Reviews Analysis  
 I use two of the datasets provided by Yelp: *business* and *user* and filter only business categorized as *restaurants*, in order to know the reasons behind a bad review written by customers. 
 
 I also use the business information to create a Content Based Recommendation Engine, that suggest new restaurant ideas for customers, according to their specific preferences.
@@ -15,3 +15,4 @@ pip install -r requirements.txt
 ## logic.py
 
 - This function takes a chunk of the original dataset and load it as csv. I used two versions, one smaller, in order to execute the code faster.
+
